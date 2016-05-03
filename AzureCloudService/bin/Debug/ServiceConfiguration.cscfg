@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  **********************************************************************************************
+
+  Este archivo se generó con una herramienta del archivo de proyecto: ServiceConfiguration.Local.cscfg
+
+  Los cambios realizados en este archivo puede provocar un comportamiento incorrecto y se perderán si el archivo se vuelve a generar.
+
+  **********************************************************************************************
+-->
+<ServiceConfiguration serviceName="AzureCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="ImageStorageAccountConn" value="UseDevelopmentStorage=true" />
+      <Setting name="ImageStorageAccountConnAzure" value="DefaultEndpointsProtocol=https;AccountName=blobstoragepractica;AccountKey=sqw383OCVZ9WTnl68ANkVBaKkt3qRiRKRATakXaabqDi3wU0FzjL54hmk2Ja4UnyY2lO8sk2dpm+1TavaIXpkg==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="cfb21cc4-92a7-4fc5-b01c-2230192a5e02" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="alexgv12" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEE4U6ro6OLK4TzcyK459Rf4wDQYJKoZIhvcNAQEBBQAEggEAGzMYjS4+9H40ZzMCVNlKvG/Uv1JlSCDIr13rF9AhdXbOZqo8ADHKd7WFDne5t6OVIClL3BGT6jtL9lyDxHVR/HoDDvHd066QP2gnyO9WNojj5FsxoHngQiTnZ4omXy9r+uSLq3NkGMxm4UzR99oHZZ9JbRAP4//HXcya74eEBqf/wTblovInU3jL5Mr3XsJ9Ijpz9CmQ66NxhVSu37Cb/aa0BLPqOxZ6vNihAPwIcIV5c0eQqyXIf6WYCOtr+Bo4YfA3RwbAGbPMJRJhbnV45MdKp7OkgaGOvxVKG4yQJXor36/nnQyUZaCW4xiN59r5Xk1pLGWr9ihWNVexf8nc4TAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECIOgK1mGUTcGgBB/IbY+9ufSsnwNZVIPbVjx" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-05-01T23:59:59.0000000-05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="98C7836F1C11F6C95C9F99D7BA031AA5CCC9BDFD" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

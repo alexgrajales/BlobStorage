@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","ResourceManagementEndpoint":"https:\/\/management.azure.com\/","SubscriptionId":"e7384097-d3a0-4152-8e9f-f7763b0af1e5"}</AzureCredentials>
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentLabel>AzureCloudService</AzureDeploymentLabel>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureHostedServiceLabel>servicioalexgv</AzureHostedServiceLabel>
+    <AzureHostedServiceName>servicioalexgv</AzureHostedServiceName>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureStorageAccountLabel>dsdffd</AzureStorageAccountLabel>
+    <AzureStorageAccountName>dsdffd</AzureStorageAccountName>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+  </PropertyGroup>
+</Project>
